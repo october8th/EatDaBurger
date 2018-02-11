@@ -1,0 +1,85 @@
+html, body {
+	height: 100%;
+  	margin: 0px;
+  	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  	width:1080px;
+  	line-height: 32px;
+  	color:#777777;
+  	background-color: #FFFFEE;
+}
+
+.header
+{
+	margin-top:15px;
+}
+
+.theBurgers
+{
+	background-color: #dddddd;
+	padding:5px;
+	clear:both;
+	overflow:auto;
+	width:600px;
+}
+
+.newBurgers
+{
+	font-size: x-small;
+	margin-left:15px;
+	width:300px;
+	background:#111111;
+	border: solid;
+	border-width: 1px;
+	border-color:#dddddd;
+	color:#ffffff;
+	float:left;
+}
+
+.eatenBurgers
+{
+	font-size: x-small;
+	width: 250px;
+	margin-left:15px;
+	background:#999999;
+	border: solid;
+	border-width: 1px;
+	border-color:#dddddd;
+	color:#ffffff;
+	float:left;
+}
+
+.logo
+{
+	max-width: 100px;
+	margin-left: 250px;
+}
+
+.makeBurger
+{
+	background-color: #EEEEEE;
+	padding:5px;
+	width:600px;
+	margin-bottom: 50px;
+}
+
+.aBurger
+{
+	background-color: #333333;
+	clear:both;
+	overflow:auto;
+}
+
+.aName
+{
+	float:left;
+}
+
+.aButton
+{
+	float:right;
+}
+
+.form-group
+{
+	float:left;
+}

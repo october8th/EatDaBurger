@@ -1,0 +1,38 @@
+{
+  "name": "eatdaburger",
+  "version": "1.0.0",
+  "description": "using npm orm javascript sql handlebars and express",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/october8th/EatDaBurger.git"
+  },
+  "keywords": [
+    "npm",
+    "orm",
+    "javascript",
+    "sql",
+    "handlebars",
+    "express"
+  ],
+  "author": "Peter Norman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/october8th/EatDaBurger/issues"
+  },
+  "homepage": "https://github.com/october8th/EatDaBurger#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.10",
+    "mysql": "^2.15.0"
+  },
+  "scripts": {
+   "start": "node server.js"
+ }
+}

@@ -1,12 +1,20 @@
 // Set up MySQL connection.
 var mysql = require("mysql");
 
-var connection = mysql.createConnection({
-  host     : 'us-cdbr-iron-east-05.cleardb.net',
-  user     : 'bc44995cd15126',
-  password : 'cbcb375c',
-  database : 'heroku_5cea6047457626e'
-});
+var connection;
+if(process.env.JAWSDB_URL) {
+  //Heroku deployment
+    connection = mysql.createConnection(process.env.JAWSDB_URL);
+} else {
+  //local host
+    connection = mysql.createConnection({
+        root: 3000,
+        host: "localhost",
+        user: "root",
+        password: "",
+        database: "db_name",
+    });
+};
 
 /*var connection = mysql.createConnection({
   host     : 'localhost',
